@@ -1,0 +1,16 @@
+p {
+  color: blueviolet;
+}
+
+h1 {
+  color: chocolate;
+}
+
+body{
+  color:cornflowerblue;
+}
+
+a:hover{
+  font-size: 20px;
+  color: rgb(43, 255, 0);
+}

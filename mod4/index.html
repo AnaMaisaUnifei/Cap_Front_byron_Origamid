@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title> Bikcraft </title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Bikcraft <br /> Bicicletas<span>Personalizadas</span></h1>
+
+  <a href="prods.html" target="_blanck">Produtos</a>
+  <br /><br />
+
+  <img src="img/bikcraft.svg" alt="bikcraft" />
+
+  <h2>Nossos Produtos</h2>
+  <ul>
+    <li><a href="passeio.html">Passeio</a></li>
+    <li><a href="esporte.html">Esporte</a></li>
+    <li><a href="retro.html">Retrô</a></li>
+  </ul>
+
+  <form action="enviar.php" method="post" name="formulario">
+    <div>
+      <label for="nome">Nome*</label>
+      <input type="text" id="nome" name="nome" required />
+    </div>
+
+    <div>
+      <label for="email">E-mail*</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div>
+      <label for="email">E-mail*</label>
+      <input type="password" id="senha" name="senha" required>
+    </div>
+
+    <div>
+      <p>Escolha as bicicletas</p>
+      <label for="retro">Retro
+        <input type="checkbox" id="retro" name="retro">
+      </label>
+
+      <label for="esporte">Esporte
+        <input type="checkbox" id="esporte" name="esporte">
+      </label>
+
+      <label for="passeio">Passeio
+        <input type="checkbox" id="passeio" name="passeio">
+      </label>
+    </div>
+
+    <div>
+      <label for="msg">Mensagem</label>
+      <textarea id="msg" name="msg"></textarea>
+    </div>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>
+
+</html>
