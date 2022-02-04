@@ -176,6 +176,10 @@ img {
   padding: 20px;
 }
 
+.produto_icone img{
+  margin-left: 25px;
+}
+
 .cta {
   text-align: center;
   padding-top: 40px;
