@@ -28,7 +28,7 @@ p {
   border-color: white;
 }
 
-.btn.btn_preto:hover{
+.btn.btn_preto:hover {
   color: black;
   border-color: black;
 }
@@ -41,7 +41,7 @@ p {
   color: black;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 40px ;
+  margin-bottom: 40px;
 }
 
 .subtitulo:after {
@@ -172,12 +172,36 @@ p {
   padding: 20px;
 }
 
-.cta{
+.cta {
   text-align: center;
   padding-top: 40px;
-  clear:both;
+  clear: both;
 }
 
-.cta p{
+.cta p {
   margin-bottom: 20px;
+}
+
+/* Portfólio */
+
+.portfolio {
+  width: 100%;
+  background-color: black;
+  padding: 40px 0;
+}
+
+.portfolio .subtitulo {
+  color: #fec63e;
+}
+
+.portfolio .subtitulo:after {
+  background-color: #fec63e;
+}
+
+.portfolio_lista li:last-child {
+  margin-top: 20px;
+}
+
+.portfolio .cta p {
+  color: white;
 }
