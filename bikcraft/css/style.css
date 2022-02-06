@@ -449,3 +449,17 @@ img {
   transform: none;
   transition: opacity 800ms, transform 800ms;
 }
+
+.nao_aparece {
+  visibility: hidden;
+  height: 0px;
+  position: absolute;
+}
+
+#form-sucesso {
+  color: green;
+}
+
+#form-erro {
+  color: red;
+}

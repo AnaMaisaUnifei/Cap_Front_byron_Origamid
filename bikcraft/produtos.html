@@ -135,20 +135,26 @@
   <section class="orc">
     <div class="container">
       <h2 class="subtitulo"> Orçamento</h2>
-      <form id="form_orc" class="form grid-8" method="" action="">
+      <form id="form_orc" method="POST" action="enviar.php" class="form grid-8 formphp" method="" action="">
         <label for="nome">Nome</label>
-        <input type="text" id="nome">
+      <input type="text" id="nome" name="nome" required>
 
-        <label for="email">E-mail</label>
-        <input type="email" id="email">
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required>
 
-        <label for="tel">Telefone</label>
-        <input type="text" id="tel">
+      <label for="tel">Telefone</label>
+      <input type="text" id="tel" name="tel">
 
-        <label for="espec">Especificações</label>
-        <textarea id="espec"></textarea>
+      <label class="nao_aparece"> Se você não é um robô, deixe em branco.</label>
+      <input type="text" class="nao_aparece" name="embranco">
 
-        <button type="submit" class="btn"> Enviar </button>
+      <label class="nao_aparece"> Se você não é um robô, não mude este.</label>
+      <input type="text" class="nao_aparece" name="naomude" value="http://">
+
+      <label for="msg">Mensagem</label>
+      <textarea id="msg" name="msg" required></textarea>
+
+      <button id="enviar" name="enviar" type="submit" class="btn"> Enviar </button>
       </form>
 
       <div class="orc_dados grid-8">
@@ -217,6 +223,7 @@
   <!-- Fim  rodapé -->
 
   <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-form.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
