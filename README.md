@@ -6,7 +6,7 @@ Bikcraft | Site construído no curso de "Web Design Completo", da Origamid, para
 
 <img src="logobyron.png" alt="Logo byron.solutions" style="text-align:center;" />
 
-## Intruções
+## Instruções
 
 - A pasta "mod4" contém os arquivos que usei para os testes e ensinamentos do módulo 4 do curso.
 - A pasta "bikcraft" contém o site construído no módulo 5, como pedido na capacitação.
