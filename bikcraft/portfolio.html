@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/responsivo.css">
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
 </head>
 
 <body>
@@ -35,30 +38,52 @@
   <!-- Iníco Introdução -->
   <section class="intro_interna interna_port">
     <div class="container">
-      <h1>Portfólio</h1>
-      <p>conheça os projetos que amamos mostrar</p>
+      <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+      <p data-anime="800" class="fadeInDown">conheça os projetos que amamos mostrar</p>
     </div>
   </section>
   <!-- Fim introdução -->
 
   <!-- Início Citação -->
-  <section class="container">
+  <section data-anime="1200" class="container fadeInDown" data-slide="quote">
     <blockquote class="quote_cliente">
       <p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencual na fórmula da gestão inovadora da qual fazemos parte."</p>
       <cite> Barbara Moss </cite>
+    </blockquote>
+
+    <blockquote class="quote_cliente">
+      <p>"Acreditar é metade do processo de toda cura. Sua crença é valiosa, então deve ter cuidado no que e em quem acredita."</p>
+      <cite> Sete Minutos Depois da Meia Noite </cite>
+    </blockquote>
+
+    <blockquote class="quote_cliente">
+      <p>"Você precisa lembrar que, no sistema que você está combatendo, a meta é GARANTIR que SAIBAM que você NÃO VAI DESISTIR."</p>
+      <cite> Malala Yousafzai</cite>
     </blockquote>
   </section>
   <!-- Fim Citação -->
 
   <!-- Início Portfólio -->
   <section class="container portfolio">
-    <div class="container">
+    <div class="container" data-slide="portfolio">
       <ul class="portfolio_lista">
         <li class="grid-8">
           <img src="img/portfolio/retro.jpg" alt="Bicicleta Retrô">
         </li>
         <li class="grid-8">
           <img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio">
+        </li>
+        <li class="grid-16">
+          <img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte">
+        </li>
+      </ul>
+
+      <ul class="portfolio_lista">
+        <li class="grid-8">
+          <img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio">
+        </li>
+        <li class="grid-8">
+          <img src="img/portfolio/retro.jpg" alt="Bicicleta Retrô">
         </li>
         <li class="grid-16">
           <img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte">
@@ -114,6 +139,10 @@
     </div>
   </footer>
   <!-- Fim  rodapé -->
+
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
